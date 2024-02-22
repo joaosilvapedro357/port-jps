@@ -1,0 +1,117 @@
+.navbar{
+    background-color: #e5e5e5;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: calc(100%);
+    height: 60px;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.navbar:hover{
+    background-color: rgb(221, 221, 221);
+    transition: background-color 0.5s ease;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.242);
+}
+
+.navbar-links{
+    margin-left: 141px;
+}
+
+.home-link{
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-weight: 600;
+}
+
+.home-button{
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.home-button:hover{
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    color: blue;
+    font-weight: 600;
+}
+
+.home-button:focus{
+    border: none;
+    outline: none;
+    }
+
+.projects-button{
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-weight: 600;
+}
+
+.projects-button:hover{
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    color: blue;
+    font-weight: 600;
+}
+
+.projects-button:focus{
+    border: none;
+    outline: none;
+    }
+
+.about-button{
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-weight: 600;
+}
+
+.about-button:hover{
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    color: blue;
+    font-weight: 600;
+}
+
+
+.about-button:focus{
+border: none;
+outline: none;
+}
+
+.contact-button{
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-weight: 600;
+}
+
+.contact-button:hover{
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    color: blue;
+    font-weight: 600;
+}
+
+.contact-button:focus{
+    border: none;
+    outline: none;
+    }
+
+.logo{
+    max-height: 75px;
+    margin-top: 10px;
+    margin-right: 147px;
+}

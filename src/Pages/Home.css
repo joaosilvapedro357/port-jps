@@ -1,0 +1,462 @@
+.home-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100%)
+}
+
+.home-page-content{
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    /*border: 1px solid violet;*/
+    height: 85vh;
+    justify-content: left;
+    margin-top: 90px;
+}
+
+.title {
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    margin-top: 150px;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.wd-home{
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+    display: flex;
+    background: linear-gradient(to left, rgba(138, 138, 210, 90) 40%, rgba(0, 0, 255, 0.846)); /* Define your gradient colors */
+    /*background: linear-gradient(to right, rgba(255, 255, 255, 0) 2%, blue);*/
+    -webkit-background-clip: text; /* Apply the gradient to the text */
+    -webkit-text-fill-color: transparent; /* Make the text transparent so the gradient shows through */
+}
+
+.russo-one-regular {
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.home-page-parts{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.home-page-text{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    max-width: 500px;
+}
+
+.pentagons{
+    display: flex;
+}
+
+.pentagon1 {
+    width: 84px;
+    height: 81px;
+    background-color: blue;
+    background: linear-gradient(45deg, blue, rgb(138, 138, 210)); /* Define your gradient colors */
+    -webkit-text-fill-color: transparent;
+    clip-path: polygon(51% 0%, 100% 40%, 80% 100%, 18% 100%, 0% 38%);
+    /*animation: spin 0.6s linear forwards, shake 3s ease-in-out infinite 1s;*/
+    /*animation: moveUpDown 2s ease-in-out infinite alternate; */
+    animation: wave 5s ease-in-out infinite alternate;
+    border-bottom: 5px solid black;
+}
+
+.pentagon2 {
+    margin-left: 22px;
+    width: 88px;
+    height: 85px;
+    background-color: blue;
+    background: linear-gradient(45deg, blue, rgb(138, 138, 210)); /* Define your gradient colors */
+    -webkit-text-fill-color: transparent;
+    clip-path: polygon(51% 0%, 100% 40%, 80% 100%, 18% 100%, 0% 38%);
+    /*animation: spin 0.8s linear forwards, shake 3s ease-in-out infinite 1s;*/
+    /*animation: moveUpDown 2s ease-in-out infinite alternate;*/ 
+    animation: wave 7s ease-in-out infinite;
+    animation-delay: 0.5s;
+    /*border-bottom: 5px solid rgb(120, 255, 90);*/
+    border-bottom: 5px solid black;
+}
+
+.pentagon3 {
+    margin-left: 22px;
+    width: 88px;
+    height: 85px;
+    background-color: blue;
+    background: linear-gradient(45deg, blue, rgb(138, 138, 210)); /* Define your gradient colors */
+    -webkit-text-fill-color: transparent;
+    clip-path: polygon(51% 0%, 100% 40%, 80% 100%, 18% 100%, 0% 38%);
+    /*animation: spin 0.8s linear forwards, shake 3s ease-in-out infinite 1s;*/
+    /*animation: moveUpDown 2s ease-in-out infinite alternate; */
+    animation: wave 5s ease-in-out infinite alternate;
+  
+    /*border-bottom: 5px solid rgb(255, 255, 127);*/
+    border-bottom: 5px solid black;
+}
+
+.arrow-zone1{
+    width: 995px;
+    height: 30px;
+    /*border: 2px solid rgba(127, 255, 212, 0.579);*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-zone2{
+    width: 995px;
+    height: 30px;
+    /*border: 2px solid rgba(127, 255, 212, 0.579);*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-zone3{
+    width: 995px;
+    height: 30px;
+    /*border: 2px solid rgba(127, 255, 212, 0.579);*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-zoneup{
+    width: 995px;
+    height: 30px;
+    /*border: 2px solid rgba(127, 255, 212, 0.579);*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-down1 {
+    margin-top: 30px;
+    max-height: 80px;
+    width: 110px;
+    cursor: pointer;
+    animation: moveUpDown2 2s ease-in-out infinite alternate;
+}
+
+.arrow-down2 {
+    margin-top: 30px;
+    max-height: 80px;
+    width: 110px;
+    cursor: pointer;
+    animation: moveUpDown2 2s ease-in-out infinite alternate;
+}
+
+.arrow-down3 {
+    max-height: 80px;
+    width: 110px;
+    cursor: pointer;
+    animation: moveUpDown2 2s ease-in-out infinite alternate;
+}
+
+.arrow-up {
+    max-height: 80px;
+    width: 110px;
+    cursor: pointer;
+    animation: moveUpDown2 2s ease-in-out infinite alternate;
+}
+
+.arrow-down1:hover {
+    width: 125px;
+    cursor: pointer;
+    animation-play-state: paused;
+    /*background-color: rgb(221, 221, 221);*/
+}
+
+.arrow-down2:hover {
+    max-height: 80px;
+    width: 125px;
+    cursor: pointer;
+    animation-play-state: paused;
+    /*background-color: rgb(221, 221, 221);*/
+}
+
+.arrow-down3:hover {
+    max-height: 80px;
+    width: 125px;
+    cursor: pointer;
+    animation-play-state: paused;
+    /*background-color: rgb(221, 221, 221);*/
+}
+
+.arrow-up:hover {
+    max-height: 80px;
+    width: 125px;
+    cursor: pointer;
+    animation-play-state: paused;
+    /*background-color: rgb(221, 221, 221);*/
+}
+
+.about-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 1100px;
+    /*border: 1px solid violet;*/
+    justify-content: space-between;
+}  
+
+.home-foto{
+    height:370px;
+    margin-bottom: 65px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    animation: moveUpDown 3s ease-in-out infinite alternate;
+    mask-image: linear-gradient(rgba(0, 0, 0, 0.92) 95%, transparent);   
+}
+
+.home-about-text{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    text-align: left;
+    padding-bottom: 30px;
+    max-width: 650px;
+    border-bottom: 10px solid; /* Set the border thickness and color */
+    border-image: linear-gradient(to right, rgba(255, 255, 255, 0) 2%, blue);
+    border-image-slice: 1; /* Ensure the gradient covers the entire border */
+}
+
+.home-projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 1100px;
+    margin-top: 50px;
+    /*border: 1px solid violet;*/
+    justify-content: center;
+}  
+
+.home-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width: 1100px;
+    height: 80vh;
+    /*border: 1px solid violet;*/
+    margin-top: 35px;
+}
+
+.title-home-contact{
+    color: black;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contact-page-content{
+    margin-top: 30px;
+    height: 800px;
+    /*border: 1px solid violet;*/
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+.contact-page-grid{
+
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px,500px));
+    grid-column-gap: 150px;
+    grid-row-gap: 60px;
+    /*border: 1px solid rgb(111, 29, 111);*/
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    margin-left: 255px;
+    width: 1200px;
+}
+
+.contact-page-parts{
+    display: flex;
+    align-items: center;
+}
+
+
+.icons{
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.icons-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 77px;
+    background-color: blue;
+    background: linear-gradient(45deg, rgb(221, 221, 221), rgba(0, 0, 255, 0.338)); /* Define your gradient colors */
+    -webkit-text-fill-color: transparent;
+    clip-path: polygon(51% 0%, 100% 40%, 80% 100%, 18% 100%, 0% 38%);
+    /*animation: spin 0.6s linear forwards, shake 3s ease-in-out infinite 1s;*/
+    /*animation: moveUpDown 2s ease-in-out infinite alternate; */
+    animation: shake 4s ease-in-out infinite alternate;
+}
+
+.info{
+    margin-left: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    font-size: 25px;
+    /*border: 2px solid violet;*/
+}
+
+.link{
+    margin-left: 20px;
+    color: blue;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 25px;
+}
+
+.link:hover{
+    margin-left: 20px;
+    color: rgb(138, 138, 210);
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 25px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+      }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes shake {
+    0% {
+      transform: rotate(-3deg);
+    }
+    5% {
+      transform: rotate(2deg);
+    }
+    10% {
+      transform: rotate(-2deg);
+    }
+    15% {
+      transform: rotate(2deg);
+    }
+    20% {
+      transform: rotate(-2deg);
+    }
+    25% {
+      transform: rotate(2deg);
+    }
+    30% {
+      transform: rotate(-2deg);
+    }
+    35% {
+      transform: rotate(2deg);
+    }
+    40% {
+      transform: rotate(-2deg);
+    }
+    45% {
+      transform: rotate(2deg);
+    }
+    50% {
+      transform: rotate(-2deg);
+    }
+    55% {
+      transform: rotate(2deg);
+    }
+    60% {
+      transform: rotate(-1deg);
+    }
+    65% {
+      transform: rotate(1deg);
+    }
+    70% {
+      transform: rotate(-1deg);
+    }
+    75% {
+      transform: rotate(1deg);
+    }
+    80% {
+      transform: rotate(-1deg);
+    }
+    85% {
+      transform: rotate(1deg);
+    }
+    90% {
+      transform: rotate(-0.5deg);
+    }
+    95% {
+      transform: rotate(0.5deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  
+  @keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-8px); /* Adjust the distance as needed */
+    }
+  }
+
+  @keyframes moveUpDown2 {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-8px); /* Adjust the distance as needed */
+    }
+  }
+
+  @keyframes wave {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    33% {
+      transform: translateY(-270px); /*changed from -10px to -100px*/
+    }
+    66% {
+      transform: translateY(-270px); /*changed from -10px to -100px*/
+    }
+  }
