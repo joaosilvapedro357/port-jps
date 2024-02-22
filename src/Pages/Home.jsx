@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 import React from 'react';
+import './Projects.css'
 
 function Home() {
 
