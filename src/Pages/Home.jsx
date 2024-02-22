@@ -52,18 +52,18 @@ function Home() {
       <img src="/images/arrow-2.png" alt="Scroll Down" className="arrow-down1" />
       </div>
       <div className="about-content">
-        <img src="/public/images/fotoport.png" alt="My Image" className="home-foto" /> 
+        <img src="/images/fotoport.png" alt="My Image" className="home-foto" /> 
         <h3 className="home-about-text">Hello, I'm João Pedro Silva, a 27-year-old Full Stack Developer based in Lisbon. My academic journey began with a Bachelor’s degree in Marketing and Advertising, followed by a post-graduation in the Digital Marketing area. <br></br>
         Recently I completed a Web Development bootcamp at Ironhack, where I learned various From-end and Back-end tools and languages, honing my passion for technology.  My commitment to continuous learning and growth has been essential in my evolution as a developer, enabling me to overcome different challenges and look forward to new ones.</h3>
       </div>
       <div onClick={scrollToContent2} className="arrow-zone2">
-      <img src="/public/images/arrow-2.png" alt="Scroll Down" className="arrow-down2" />
+      <img src="/images/arrow-2.png" alt="Scroll Down" className="arrow-down2" />
       </div>
       <div className="home-projects">
         <h1 className="projects-title">PROJECTS</h1>
         <div className="projects-list">
             <div className='earth-card'>
-                <img src="/public/images/earthimg.png" alt="My Image" className="earth-img" />
+                <img src="/images/earthimg.png" alt="My Image" className="earth-img" />
                 <div className='overlay'>
                     <p className='earth-text'>‘Earth Savior’, a game about aiming and shooting meteors to help protect our planet.
                     Developed using Javascript, Object-Oriented Programming (OOP) and DOM Manipulation.</p>
@@ -78,7 +78,7 @@ function Home() {
                 </div>
             </div>
             <div className='memes-card'>
-                <img src="/public/images/memes-img.png" alt="My Image" className="memes-img" />
+                <img src="/images/memes-img.png" alt="My Image" className="memes-img" />
                 <div className='overlay'>
                 <p className='memes-text'>‘Memezard’, a Memes journey that had the goal of creating something creative and user interactive. React project fetching and presenting data via REST API.</p>
                     <Link
@@ -92,7 +92,7 @@ function Home() {
                 </div>
             </div>
             <div className='upet-card'>
-                <img src="/public/images/upet-img.png" alt="My Image" className="upet-img" />
+                <img src="/images/upet-img.png" alt="My Image" className="upet-img" />
                 <div className='overlay'>
                   <p className='upet-text'>MERN stack project dedicated to managing your pets' information and supporting animals in need from APAMG, an Animal Protection Association from Marinha Grande.</p>
                     <Link
@@ -107,23 +107,23 @@ function Home() {
         </div>
       </div>
       <div onClick={scrollToContent3} className="arrow-zone3">
-        <img src="/public/images/arrow-2.png" alt="Scroll Down" className="arrow-down3" />
+        <img src="/images/arrow-2.png" alt="Scroll Down" className="arrow-down3" />
       </div>
       <div className="home-contact">
         <h1 className="title-home-contact">Contact</h1>
         <div className="contact-page-content">
           <div className="contact-page-grid">
-            <div className="contact-page-parts"> <div className="icons-box"><img src="/public/images/emailcon.png" alt="icon" className="icons" /></div><h3 className="info">joaosilvapedro357@gmail.com</h3></div>
-            <div className="contact-page-parts"> <div className="icons-box"><img src="/public/images/phicon.png" alt="icon" className="icons" /></div><h3 className="info">+351 912600488</h3></div>
-            <div className="contact-page-parts"> <div className="icons-box"><img src="/public/images/homecon.png" alt="icon" className="icons" /></div><h3 className="info">Cascais, Lisbon, Portugal</h3></div>
+            <div className="contact-page-parts"> <div className="icons-box"><img src="/images/emailcon.png" alt="icon" className="icons" /></div><h3 className="info">joaosilvapedro357@gmail.com</h3></div>
+            <div className="contact-page-parts"> <div className="icons-box"><img src="/images/phicon.png" alt="icon" className="icons" /></div><h3 className="info">+351 912600488</h3></div>
+            <div className="contact-page-parts"> <div className="icons-box"><img src="/images/homecon.png" alt="icon" className="icons" /></div><h3 className="info">Cascais, Lisbon, Portugal</h3></div>
             <div className="contact-page-parts">
-            <div className="icons-box"><img src="/public/images/linkcon.webp" alt="icon" className="icons" /></div>
+            <div className="icons-box"><img src="/images/linkcon.webp" alt="icon" className="icons" /></div>
               <Link to="https://www.linkedin.com/in/jo%C3%A3o-pedro-silva-5a413719a/" target="_blank" rel="noopener noreferrer" className="link">
                 LinkedIn
               </Link>
             </div>
             <div className="contact-page-parts">
-            <div className="icons-box"><img src="/public/images/gitcon.png" alt="icon" className="icons" /></div>
+            <div className="icons-box"><img src="/images/gitcon.png" alt="icon" className="icons" /></div>
               <Link to="https://github.com/joaosilvapedro357" target="_blank" rel="noopener noreferrer" className="link">
                 GitHub
               </Link>
@@ -132,7 +132,7 @@ function Home() {
         </div>
       </div>
       <div onClick={scrollToContent1} className="arrow-zoneup">
-      <img src="/public/images/arrow-up.png" alt="Scroll Down" className="arrow-up" />
+      <img src="/images/arrow-up.png" alt="Scroll Down" className="arrow-up" />
       </div>
     </div>
 
