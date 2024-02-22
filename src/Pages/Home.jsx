@@ -49,7 +49,7 @@ function Home() {
         </div>
       </div>
       <div onClick={scrollToContent} className="arrow-zone1">
-      <img src="/public/images/arrow-2.png" alt="Scroll Down" className="arrow-down1" />
+      <img src="/images/arrow-2.png" alt="Scroll Down" className="arrow-down1" />
       </div>
       <div className="about-content">
         <img src="/public/images/fotoport.png" alt="My Image" className="home-foto" /> 
