@@ -36,7 +36,7 @@ function Navbar() {
             {/*<Link to="/projects" className="projects-link"> Projects </Link>*/}
         </div>
         <div className="navbar-logo">
-            <img src="/public/images/logopent.png" alt="My Image" className="logo" /> 
+            <img src="/images/logopent.png" alt="My Image" className="logo" /> 
         </div>
     </nav>
   );
