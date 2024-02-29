@@ -55,7 +55,7 @@ function Home() {
       <div className="about-content">
         <img src="/images/fotoport.png" alt="My Image" className="home-foto" /> 
         <h3 className="home-about-text">Hello, I'm João Pedro Silva, a 27-year-old Full Stack Developer based in Lisbon. My academic journey began with a Bachelor’s degree in Marketing and Advertising, followed by a post-graduation in the Digital Marketing area. <br></br>
-        Recently I completed a Web Development bootcamp at Ironhack, where I learned various From-end and Back-end tools and languages, honing my passion for technology.  My commitment to continuous learning and growth has been essential in my evolution as a developer, enabling me to overcome different challenges and look forward to new ones.</h3>
+        Recently I completed a Web Development bootcamp at Ironhack, where I learned various Front-end and Back-end tools and languages, honing my passion for technology.  My commitment to continuous learning and growth has been essential in my evolution as a developer, enabling me to overcome different challenges and look forward to new ones.</h3>
       </div>
       <div onClick={scrollToContent2} className="arrow-zone2">
       <img src="/images/arrow-2.png" alt="Scroll Down" className="arrow-down2" />
